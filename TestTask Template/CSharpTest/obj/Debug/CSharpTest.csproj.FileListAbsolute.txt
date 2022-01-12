@@ -1,0 +1,7 @@
+D:\task\TestTask Template\CSharpTest\bin\Debug\CSharpTest.dll
+D:\task\TestTask Template\CSharpTest\bin\Debug\CSharpTest.pdb
+D:\task\TestTask Template\CSharpTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\task\TestTask Template\CSharpTest\obj\Debug\CSharpTest.csproj.CoreCompileInputs.cache
+D:\task\TestTask Template\CSharpTest\obj\Debug\CSharpTest.dll
+D:\task\TestTask Template\CSharpTest\obj\Debug\CSharpTest.pdb
+D:\task\TestTask Template\CSharpTest\obj\Debug\CSharpTest.csproj.AssemblyReference.cache
