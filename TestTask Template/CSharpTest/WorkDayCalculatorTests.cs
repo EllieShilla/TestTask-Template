@@ -53,5 +53,21 @@ namespace CSharpTest
 
             Assert.IsTrue(result.Equals(new DateTime(2021, 4, 28)));
         }
+
+        [TestMethod]
+        public void TestTwoAndMoreWeekend()
+        {
+            DateTime startDate = new DateTime(2021, 4, 21);
+            int count = 5;
+            WeekEnd[] weekends = new WeekEnd[2]
+            {
+                new WeekEnd(new DateTime(2021, 4, 23), new DateTime(2021, 4, 25)),
+                new WeekEnd(new DateTime(2021, 4, 28), new DateTime(2021, 4, 28))
+            };
+
+            DateTime result = new WorkDayCalculator().Calculate(startDate, count, weekends);
+
+            Assert.IsTrue(result.Equals(new DateTime(2021, 4, 29)));
+        }
     }
 }

@@ -5,3 +5,10 @@ D:\task\TestTask Template\CSharpTest\obj\Debug\CSharpTest.csproj.CoreCompileInpu
 D:\task\TestTask Template\CSharpTest\obj\Debug\CSharpTest.dll
 D:\task\TestTask Template\CSharpTest\obj\Debug\CSharpTest.pdb
 D:\task\TestTask Template\CSharpTest\obj\Debug\CSharpTest.csproj.AssemblyReference.cache
+D:\git\TestTask-Template\TestTask Template\CSharpTest\bin\Debug\CSharpTest.dll
+D:\git\TestTask-Template\TestTask Template\CSharpTest\bin\Debug\CSharpTest.pdb
+D:\git\TestTask-Template\TestTask Template\CSharpTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\git\TestTask-Template\TestTask Template\CSharpTest\obj\Debug\CSharpTest.csproj.AssemblyReference.cache
+D:\git\TestTask-Template\TestTask Template\CSharpTest\obj\Debug\CSharpTest.csproj.CoreCompileInputs.cache
+D:\git\TestTask-Template\TestTask Template\CSharpTest\obj\Debug\CSharpTest.dll
+D:\git\TestTask-Template\TestTask Template\CSharpTest\obj\Debug\CSharpTest.pdb

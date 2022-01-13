@@ -11,20 +11,26 @@ namespace CSharpTest
         public DateTime Calculate(DateTime startDate, int dayCount, WeekEnd[] weekEnds)
         {
             DateTime endDate = new DateTime();
+
             if (weekEnds == null)
                 endDate = startDate.AddDays(dayCount - 1);
             else
             {
+                endDate = startDate.AddDays(dayCount - 1);
+
                 foreach (var date in weekEnds)
                 {
-                    System.TimeSpan diff2 = date.EndDate - date.StartDate;
-                    dayCount+= diff2.Days;
+                    if (date.StartDate.CompareTo(endDate) < 0 || date.StartDate.CompareTo(endDate) == 0)
+                    {
+                        System.TimeSpan diff2 = date.EndDate - date.StartDate;
+                        endDate = endDate.AddDays(diff2.Days+1);
+                    }
                 }
-
-                endDate = startDate.AddDays(dayCount);
             }
 
             return endDate;
         }
     }
 }
+
+
